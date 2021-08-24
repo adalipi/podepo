@@ -69,6 +69,7 @@ namespace API
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IQRcodeService, QRcodeService>();
 
         }
 
